@@ -29,7 +29,7 @@ body {
   padding: 0;
   height: 400vh;
   background-color: #ffe135;
-  font-family: Arial, sans-serif;
+  font-family: "Teachers", sans-serif;
 }
 
 .header-box {
@@ -48,6 +48,7 @@ body {
   position: fixed;
   font-size: 2rem;
   font-family: "Teachers", sans-serif;
+  text-align: center;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -56,4 +57,15 @@ body {
   transform: translateX(-50%);
   display: flex;
   gap: 20px;
+}
+
+.scroll-text {
+  position: fixed;
+  bottom: 20px;
+  font-family: "Teachers", sans-serif;
+  font-size: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #008c00;
+  opacity: 0.8;
 }
